@@ -1,0 +1,25 @@
+= Sequence - making numbers with Emacs =
+
+sequence is really simple. It just makes a procedure that makes
+numbers.
+
+{{{
+(setq numbers (sequence-make "~/sequence-store"))
+(funcall numbers) => 1
+(funcall numbers) => 2
+(funcall numbers) => 3
+}}}
+
+
+
+=== sequence-maker file &optional starting-point ===
+
+Make a procedure to make numbers.
+
+//file// is the storage for this number sequence.
+
+//starting-point// is an optional starting point.
+
+
+It's not transactional or safe or amything. It's just a simple little
+helper.
