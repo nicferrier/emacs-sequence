@@ -21,5 +21,5 @@ Make a procedure to make numbers.
 //starting-point// is an optional starting point.
 
 
-It's not transactional or safe or amything. It's just a simple little
+It's not transactional or safe or anything. It's just a simple little
 helper.
